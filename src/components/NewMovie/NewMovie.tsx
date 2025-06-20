@@ -4,10 +4,7 @@ import { TextField } from '../TextField/TextField';
 type NewMovieProps = {
   onAdd: (movie: {
     title: string;
-    imgUrl: string;
-    imdbUrl: string;
-    imdbId: string;
-    description: string; // zmienione na nieopcjonalne
+
   }) => void;
 };
 
